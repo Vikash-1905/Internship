@@ -1,0 +1,94 @@
+# Detail Project Report (DPR)
+
+## Calculator Using HTML, CSS, and JavaScript
+
+---
+
+## 1. Introduction
+
+A Calculator is a basic web-based application used to perform arithmetic operations such as addition, subtraction, multiplication, and division. This project is developed using **HTML** for structure, **CSS** for design, and **JavaScript** for functionality. The main objective of this project is to understand the basics of frontend web development and JavaScript logic.
+
+---
+
+## 2. Objectives of the Project
+
+* To design a simple and user-friendly calculator interface
+* To perform basic arithmetic operations
+* To understand JavaScript event handling
+* To improve practical knowledge of HTML, CSS, and JavaScript
+
+---
+
+## 3. Scope of the Project
+
+This calculator can perform:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Clear and reset operations
+
+---
+
+## 4. Technologies Used
+
+* **HTML**: To create the structure of the calculator
+* **CSS**: To style the calculator buttons and layout
+* **JavaScript**: To handle logic and calculations
+
+---
+
+## 5. Software Requirements
+
+* Web Browser 
+* Code Editor (VS Code )
+
+---
+
+## 6. Working of the Calculator
+
+1. User clicks on number buttons to enter values
+2. User selects an arithmetic operator
+3. JavaScript stores the input values
+4. When the equal (=) button is pressed, calculation is performed
+5. The result is displayed on the screen
+6. Clear button resets the calculator
+
+---
+
+## 7. Flowchart of Calculator Working
+
+```
+ ┌─────────────┐
+ │   Start     │
+ └──────┬──────┘
+        │
+ ┌──────▼──────┐
+ │ Press Button│
+ └──────┬──────┘
+        │
+ ┌──────▼──────┐
+ │ Number or   │
+ │ Operator?   │
+ └───┬─────┬───┘
+     │     │
+ ┌───▼───┐ ┌───▼─────────┐
+ │ Store │ │ Perform     │
+ │ Input │ │ Calculation │
+ └───┬───┘ └────┬────────┘
+     │          │
+     └────┬─────┘
+          │
+ ┌────────▼────────┐
+ │ Display Result  │
+ └────────┬────────┘
+          │
+ ┌────────▼────────┐
+ │ Clear / Continue│
+ └────────┬────────┘
+          │
+ ┌────────▼────────┐
+ │      End        │
+ └─────────────────┘
+```
